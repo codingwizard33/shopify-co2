@@ -17,7 +17,7 @@ function validProductCo2(productObj) {
 
 async function productCo2Fetch(req, res) {
   const productData  = validProductCo2(req.body);
-
+  console.log(productData,"productData")
   const config = {
     headers: {
       'Accept': 'application/json',
